@@ -2,6 +2,7 @@ import restart from 'vite-plugin-restart'
 import glsl from 'vite-plugin-glsl'
 
 export default {
+    assetsInclude: ['**/*.glb'],
     root: 'src/',
     publicDir: '../static/',
     base: './',
